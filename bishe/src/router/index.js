@@ -17,6 +17,7 @@ const ReportList = () => import('@/components/report_list/index.vue')
 const NewsDetails = () => import('@/components/report_list/NewsDetails.vue')
 const NewsDetailsTwo = () => import('@/components/report_list/NewsDetailsTwo.vue')
 const Realize = () => import('@/components/realize/index.vue')
+const CustomerService = () => import('@/views/CustomerService.vue') 
 
 const routes = [
   {
@@ -46,6 +47,10 @@ const routes = [
       {
         path:'4',
         component:Consulting
+      },
+      {
+        path: '/customer-service',
+        component: CustomerService
       }
     ]
   },
