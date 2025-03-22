@@ -62,6 +62,12 @@
           <!-- <a href="/fivenav/2">发展历程</a> -->
           <!-- <a href="/fivenav/3">荣誉资质</a> -->
           <a href="/fivenav/2">联系哈基米</a>
+          <router-link
+          class="menu_item"
+          to="/customer-service"
+          :class="currentActive === 6 ? 'active' : ''"
+          >客服中心</router-link
+        >
         </div>
       </div>
     </Affix>

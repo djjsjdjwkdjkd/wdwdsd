@@ -41,6 +41,9 @@
           <el-menu-item index="6" class="menu_item"
             ><a href="/demo">爱心领养</a></el-menu-item
           >
+          <el-menu-item index="7" class="menu_item">
+            <a href="/customer-service">客服中心</a>
+          </el-menu-item>
         </el-menu>
         <!-- <a href="#">立即体验</a> -->
         <span class="right_phone">
